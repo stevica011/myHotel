@@ -12,4 +12,4 @@ class Konekcija2:
       if(Konekcija2.__konekcija != None):
          raise Exception("Ovo je singleton")
       else:
-         Konekcija2.__konekcija = mysql.connector.connect(user='root', password='stevica011',host='127.0.0.1',database='hotel')
+         Konekcija2.__konekcija = mysql.connector.connect(user='root', password='',host='127.0.0.1',database='hotel')
